@@ -1,0 +1,220 @@
+/*CSS Reset*/
+*{
+   margin:  0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* Main Styling*/
+html,body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+
+h1,h2,h3{
+
+  padding-bottom: 10px 0;
+}
+p{
+
+margin:10px 0;
+}
+/*utility */
+.container{
+  margin: auto;
+  max-width: 1000px;
+  overflow: auto;
+  padding: 0 20px;
+
+}
+.container1{
+  margin: auto;
+  max-width: 1000px;
+  overflow: auto;
+  padding: 0px 20px;
+}
+.py-1 {
+  padding: 0 10px;
+}
+.py-2 {
+  padding: 0 20px;
+}
+.py-3 {
+  padding: 0 30px;
+}
+#navbar{
+  background: #333;
+  color: white;
+  overflow: auto;
+}
+#navbar a
+{
+
+  
+    color:#D3D3D3;
+    text-decoration: none;
+  
+}
+#navbar h1{
+  float: left;
+  padding-top:2px ;
+  font-size: 4.1vw;
+}
+#navbar li{
+ float: right;
+ display: inline;
+ padding: 2px 6px;
+ list-style: none;
+
+}
+#navbar ul li a:hover,#navbar ul li a.current
+{
+  background: #2F4F4F;
+  color:red;
+  
+}
+/* Styling For The Show  Case*/
+#showcase{
+
+  width: 100%;
+  background:url('../Resources/architecture-hall-hallway-interior-design-53464.jpg') no-repeat center ;
+  background-size:cover ;
+  height: 300px;
+}
+#showcase h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:1.2em;
+  text-align: center;
+  color:#FFFF00;
+}
+#showcase h2{
+
+  color: #FFFAFA;
+}
+.text-primary{
+  color: #FFD700;
+
+}
+#showcase p{
+   color:#F0FFFF;
+   font-size: 1em;
+
+
+
+}
+#showcase a{
+
+  text-decoration: none;
+  color:whitesmoke;
+}
+#showcase a:hover{
+  color: #FFD700;
+}
+.info-content a:hover{
+
+  color: #FFD700;
+
+}
+.info-content a{
+
+  color: #080809;
+}
+#home-info{
+  height: 200px;
+}
+#home-info .info-img{
+  background: url('../Resources/architecture-blue-water-buildings-business-261102.jpg') no-repeat;
+  background-size:cover;
+  width: 50%;
+  min-height: 100%;
+  float: left;
+  
+  
+}
+#home-info .info-content{
+ font-size: 0.9em;
+ min-height: 100%;
+ background-color: #A9A9A9;
+ float: right;
+ width: 50%;
+ height:20px ;
+
+}
+/* Feautures Section*/
+.box{
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  
+ }
+ .box i{
+   margin-bottom: 20px;
+ }
+  #box1{
+    background:#FFE4E1;
+
+    height:23.2em;
+ }
+ #box2{
+  background:#FFEBCD;
+}
+#box2{
+  background: #7FFFD4;
+}
+.clr{
+  clear: both;
+}
+#main-footer #para{
+  
+  font-size: 1.5em;
+ 
+  
+}
+/*About Information*/
+#about-info{
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  height: 410px;
+}
+#about-info .info-left{
+  
+  font-size: 0.9em;
+  float: left;
+  width:50% ;
+  background-color:#F5F5F5;
+}
+#about-info .info-right img
+{
+
+   
+    
+    
+    float: right;
+    width:50%;
+    height:384px ;
+    
+     
+    
+}
+.clr1{
+  clear: both;
+}
+/*Testimonials*/
+#testimonials .testimonials 
+{
+  margin: 0;
+  padding: 0;
+  background-image: url(/Resources/bedroom-door-entrance-guest-room-271639.jpg);
+  background-size: cover;
+
+}
+
+#testimonials .testimonials img{
+
+  border-radius: 9px;
+}
+#testimonials .l-heading{
+  font-size: 1.4em;
+}
+

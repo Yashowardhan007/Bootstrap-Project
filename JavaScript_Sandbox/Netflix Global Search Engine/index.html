@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Global Search Engine</title>
+  <script src="netflix.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+
+<script>
+  
+  async  function getData(){
+    const api_url = "https://unogs-unogs-v1.p.rapidapi.com/api.cgi?t=genres";
+    const response =await fetch(api_url,{
+    "method":"GET",
+    "headers":{
+
+      "x-rapidapi-host": "unogs-unogs-v1.p.rapidapi.com",
+    "x-rapidapi-key": "38b1d8b4c2mshccda5ae02075527p13c8ddjsn552c577612cb"
+    }
+  
+  });
+  const data = response.json();
+  console.log(data);
+  }
+  getData();
+  
+ 
+</script>
+</body>
+</html>

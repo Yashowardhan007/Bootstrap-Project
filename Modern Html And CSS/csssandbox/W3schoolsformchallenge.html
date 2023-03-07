@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>W3Schools Form Challenge</title>
+  <style>
+    body{
+      font-size: 1.9vw;
+      background-color:#F0E68C;
+
+      box-sizing:border-box;
+
+
+
+    }
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding:0 ;
+    }
+  .container{
+    background-color:#FFD700
+;
+    
+    margin-top: 3%;
+    margin-right: 0.5%;
+    padding: 3px 3px;
+    
+  }
+  h2{
+    text-align: center;
+    color: blue;
+  }
+  .form-wrap{
+    line-height:1.8;
+    
+    
+   
+    
+    
+  }
+ 
+ /*
+  #Firstname{
+
+    width: 520px;
+    border: 1px solid #808080;
+  }
+  #Lastname{
+    width:520px ;
+    border: 1px solid #808080;
+  }
+  #country{
+    width:520px;
+    border: 1px solid #808080;
+    margin-left:1.4%;
+  }
+  #MobileNumber{
+    width: 520px;
+    margin-left: 2.2%;
+    border: 1px solid #808080 ;
+  }
+  */
+  .form-wrap label{
+    display: block
+    
+  }
+
+ .form-wrap input {
+    width: 600px;
+    background-color#FFFFE0;
+
+  }
+  #country
+  {
+    width: 600px;
+  }
+  
+  
+  button{
+     width: 100px;
+     margin-left: 40%;
+     border-radius: 6px;
+  }
+  .form-end {
+    font-size: 02em;
+    
+  }
+  a:hover{
+    color: blue;
+  }
+  
+ 
+  
+  </style>
+</head>
+<body>
+  <h2>Fill In The Following Details</h2>
+  <form>
+  <div class="container">
+
+    <div class="form-wrap">
+      <label for="Firstname">Firstname:</label>
+      <input type="text" id="Firstname" name="fname" required placeholder="Your Firstname...">
+
+    </div>
+
+    <div class="form-wrap">
+
+      <label for="Lastname">Lastname:</label>
+      <input type="text" id="Lastname" name="lname" required  placeholder="Your Lastname...">
+    </div>
+    <div class="form-wrap">
+      <label for="country">Country: </label>
+      <select id="country" name="country">
+        <option value="Bharat">Bharat</option>
+        <option value="America">America</option>
+        <option value="United Kingdom">United Kingdom</option>
+      </select>
+    </div>
+    <div class="form-wrap">
+      <label for="MobileNumber">Mobile:</label>
+      <input type="number" id="MobileNumber" name="mob_no"placeholder="Enter mobile phone..">
+    </div>
+
+    <div>
+      <button>SUBMIT RESPONSE</button>
+    </div>
+
+  </div>
+  </form>
+  <footer class="form-end">
+    <a href="#">Home:</a>
+    <a  href="#">About:</a>
+    <a href="#">Contact Info</a>
+
+  </footer>
+</body>
+</html>

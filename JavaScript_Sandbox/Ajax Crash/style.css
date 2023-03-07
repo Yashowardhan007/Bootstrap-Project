@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.btn{
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 0.2rem;
+}
+
